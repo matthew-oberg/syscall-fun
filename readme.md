@@ -1,6 +1,6 @@
 # Syscall Fun
 
-This repository contains the code, test scripts, and results from my work on bundling system calls. This work was carried out as a part of Boise State University class CS 554 - Advanced Operating Systems.
+This repository contains the code, test scripts, and results from my work on bundling system calls. This work was carried out as a part of the Boise State University class CS 554 - Advanced Operating Systems.
 
 It contains two implementations of a program to send the contents of a file over the network. One is the typical Unix implementation. The other is a new system call implmented as a kernel module that does the same.
 
@@ -28,7 +28,7 @@ The module can be loaded with kldload(8). The runner program can then be run via
 
 There are lots of ways this can go wrong. Here are the ones I've encountered so far.
 
- - The runner program assumes that the new syscall with be number 210. This is hardcoded.
+ - The runner program assumes that the new syscall will be number 210. This is hardcoded.
  
  - Running the classic program after loading the module can cause a kernel panic.
 
