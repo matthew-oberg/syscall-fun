@@ -34,4 +34,4 @@ There are lots of ways this can go wrong. Here are the ones I've encountered so 
 
  - Running the runner program more than once can cause a kernel panic.
 
- - Unloaded the module can cause a kernel panic.
+ - Unloading the module can cause a kernel panic.
